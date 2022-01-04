@@ -1,5 +1,7 @@
 package com.Subhendu;
 
+import java.util.Scanner;
+
 public class first {
     public static void main(String[] args) {
         // lol first program
@@ -13,5 +15,11 @@ public class first {
         int a = 5;
         double b = 6.0;
         System.out.println(a + b);
+
+        // Taking Inputs
+        Scanner object = new Scanner(System.in);
+        String name = object.nextLine();
+        System.out.println("Name: " + name);
+
     }
 }
