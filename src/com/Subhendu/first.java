@@ -21,5 +21,12 @@ public class first {
         String name = object.nextLine();
         System.out.println("Name: " + name);
 
+        // if-else
+        if (name.equals("Subhendu")) {
+            System.out.println("Hi");
+        }
+        else {
+            System.out.println("Someone else");
+        }
     }
 }
