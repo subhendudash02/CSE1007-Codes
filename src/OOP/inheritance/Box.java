@@ -1,7 +1,7 @@
 package OOP.inheritance;
 
 public class Box {
-    double length;
+    private double length;
     double breadth;
     double height;
 

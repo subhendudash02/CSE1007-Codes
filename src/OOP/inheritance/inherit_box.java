@@ -11,8 +11,20 @@ public class inherit_box extends Box {
     public static void main(String[] args) {
         inherit_box x = new inherit_box(4, 5, 6);
         System.out.println("Volume = " + x.volume);
+        // System.out.println(x.length); // Error because private var/method can't be accessed in different files
 
         Box y = new Box();
         y.print();
+
+        /*
+         *
+         *
+         * */
+
+        Box newVar = new inherit_box(2, 2, 2);
+        System.out.println(newVar.height);
+//        System.out.println(newVar.volume); // Error
+
+//        inherit_box box8 = new Box(); // Error
     }
 }
