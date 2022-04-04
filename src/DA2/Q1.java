@@ -1,4 +1,4 @@
-package DA1;
+package DA2;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -51,7 +51,7 @@ public class Q1 {
             System.out.print("Enter the amount: ");
             int amount = s.nextInt();
             try {
-                if (amount < 100 && amount > 20000) {
+                if (amount < 100 || amount > 20000) {
                     throw new UserException("Invalid amount");
                 }
                 else if (amount % 100 != 0) {

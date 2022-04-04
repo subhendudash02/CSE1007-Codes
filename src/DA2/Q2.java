@@ -1,4 +1,4 @@
-package DA1;
+package DA2;
 
 import java.util.Scanner;
 
@@ -33,7 +33,7 @@ class Customer extends Thread {
         double weight = s.nextDouble();
 
         try {
-            if (price <= 0 && weight <= 0) {
+            if (price <= 0 || weight <= 0) {
                 throw new UException("Invalid Input!");
             }
         }
